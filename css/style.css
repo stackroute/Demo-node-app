@@ -1,0 +1,111 @@
+.c1{
+    position: fixed;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background: black;
+}
+.c1 img{
+    padding-left: 30px;
+    margin-top: 10px;
+    
+
+}
+.c1 li{
+    display: inline;
+    list-style: none;
+    text-indent:30px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding-left: 25px;
+    text-transform: uppercase;
+    }
+    .c1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .c1 a:hover{
+        color: #5DED79;
+    }
+    .c12{
+        margin-left:1000px;
+    }
+    .c2{
+        margin-left: 70px;
+        margin-top: 50px;
+
+    }
+    .c21{
+        width:350px;
+        float:left;
+        margin-left:50px;
+        margin-right:10px;
+        margin-top:20px;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        border-radius: 30px;
+        padding: 10px;
+
+    }
+    .c21 p{
+        color:#999;
+        text-align: justify;
+        font-size: 20px;
+        font-family: Acme;
+
+    }
+    .c21 img{
+        margin-left: 20px;
+    }
+    .c21 h1{
+        font-family: BenchNine;
+    }
+    .c3{
+        background: #f5f5f5;
+        margin-top:600px;
+    }
+    .c31{
+        text-align:center;
+        padding:10px;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto ;
+        padding: 10px;
+        height:400px;
+       }
+       .grid-item,.grid-item1 {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 30px;
+        margin-top:10px;
+        font-size: 20px;
+        text-align: center;
+        font-family: Mali;
+    }
+    .grid-item1{
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        border-radius: 25px;
+    }
+    footer{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border-top: 1px solid #d1d1d1;
+        padding-top: 15px;
+        color: #7e7e7e;
+      }
+      footer p{
+        float: left;
+        margin-left: 20px;
+      }
+      footer ul{
+        float:right;
+      }
+      footer li{
+        display: inline;
+        padding-left: 20px;
+      }
+      footer a{
+        text-decoration: none;
+      }
