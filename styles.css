@@ -1,0 +1,107 @@
+/*
+STYLES.CSS
+
+Course:  Bootstrap 4 Quick Start
+Author:  Brad Hussey
+Website: bradhussey.ca
+*/
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* cover */
+.display-3
+{
+    font-family:Bitter;
+    color:white;
+}
+#paragraph
+{
+    font-family:Lobster;
+    font-size: 1.5em;
+}
+#cover {
+    background: #222 url('img/main1.jpeg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
+
+#section1
+{
+    background:url("img/s1.jpg") center center no-repeat;
+    
+    background-size:cover;
+   height:600px;
+   
+
+  
+}
+#service
+{
+    font-family:Bitter;
+    font-size:1.5em;
+    color:white;
+}
+ /*css of grids,second section*/
+ .grid_4
+ {
+   margin-top:40px;
+   float:left;
+   width:470px;
+   margin-left:20px;
+   margin-right:10px;
+   WORD-SPACING:1.5PX;
+ }
+ .grid_container
+ {
+   background-color:white;
+   font-family:Gloria Hallelujah;
+   height:400px;
+   top:0px;
+ }
+.section-content {
+    padding: 5rem 0;
+}
+
+#picture{
+height:400px;
+width:100%;
+}
+#jumbotron
+{
+    font-family:Acme;
+    text-align:center;
+    font-size:2em;
+}
+
+#about {
+    background: url('img/about.jpeg') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(156, 48, 48, 0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
