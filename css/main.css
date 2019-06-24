@@ -1,0 +1,140 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Gudea', sans-serif;
+
+}
+
+#nav-bar {
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+
+  background-image: linear-gradient(to right, #FDE5F0, #FDE5F0);
+  padding: 0 !important;
+}
+
+.navbar-brand img {
+
+  height: 80px;
+  width: 150px;
+  padding-left: 20px;
+
+}
+
+.navbar-nav li{
+
+  padding: 0 10px;
+
+}
+
+.navbar-nav a {
+
+  color: #59311a !important;
+  font-weight: 600;
+}
+
+/*------Banner CSS-------*/
+
+#banner {
+
+  background-image: linear-gradient(to right, #FDE5F0, #FDE5F0);
+  color: #59311a;
+  padding-top: 5%;
+}
+
+.banner-img {
+
+  width: 100%;
+  margin-bottom: 40px;
+
+}
+
+.about-us {
+
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+#services {
+
+background-image: linear-gradient(to right, #C9F2E8, #C9F2E8);
+padding: 80px 0;
+text-align: center;
+
+}
+
+.service-img {
+
+  width: 80%;
+  height: 70%;
+  margin-bottom: 15px;
+
+}
+
+#services h2 {
+
+  margin-left: 50px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #59311a !important;
+  font-size: 40px;
+
+}
+
+.our-menu::before {
+  content: '';
+  background-color: #59311a;
+  height: 5px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+#about-us {
+
+  background-color: #FDDFAD;
+
+}
+
+#about-us p {
+
+      text-align: center; 
+      padding-top: 20px;
+}
+
+#about-us h2 {
+
+      text-align: center;
+      padding-top: 20px;
+
+}
+
+footer {
+
+  background-image: linear-gradient(to right, #FD4B5B, #FD4B5B)
+
+}
+
+footer h4 {
+
+  margin-top: 20px;
+  color: #59311a;
+
+}
+
+footer ul li{
+  display: inline;
+  padding: 10px;
+  font-size: 130%;
+}
