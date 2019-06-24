@@ -1,0 +1,385 @@
+#logo {
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    position: relative;
+    left: -200px;
+    bottom: 10px;
+    
+}
+
+
+
+#logo2 {
+  margin-left: 30px;
+  width: 120px;
+  height: 120px;
+  margin-top: 20px;
+  
+
+}
+
+
+
+header {
+    background: #f4a460;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+}
+
+.options {
+      list-style: none;
+      display: inline-flex;
+      float: right;
+      position: relative;
+      right: 50px;
+      top: 30px;
+      margin-left: 20px;
+  }
+
+ 
+  .btn {
+    background-color: #f4a460; 
+    border: none;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    
+  }
+
+  .dropdown-item {
+    font-family: 'Permanent Marker', cursive;
+  }
+
+  .btn:hover {
+    background-color: purple;
+  }
+
+  
+  #title{
+    position: relative;
+    bottom: 90px;
+    left: -60px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    width: 600px;
+
+  }
+  
+.parallax-container {
+ 
+  background-image: url("../img/pet3.jpg"); 
+  height: 500px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+    
+}
+
+#hero{
+  width: 100%;
+}
+
+
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax-container .parallax-container2 {
+    background-attachment: scroll;
+  }
+}
+
+.hero-section {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  
+}
+
+
+
+.item {
+  width: 500px;
+  height: 400px;
+  padding-right: 30px;
+  padding-left: 50px;
+}
+
+footer{
+  background-color: #f4a460;
+  height: 200px;
+  position: relative;
+  top: 160px;
+  width: 100%;
+}
+
+#contact_info {
+  float: right;
+  line-height: 1px;
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  right: 10px;
+}
+
+#footer_quote {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  position: relative;
+  bottom: 80px;
+  left: 40px;
+}
+
+
+
+
+body{
+  margin:0;
+  width: 100%;
+  height: 100%;
+}
+
+#container_text {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: -2px;
+  font-size: 25px;
+  font-weight: bold;
+  z-index: -1;
+}
+
+#fb, #twt{
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+}
+
+#yt, #gmail{
+  width: 60px;
+  height: 50px;
+  margin-left: 5px;
+}
+
+
+#twt {
+  margin-left: 10px;
+}
+
+
+
+
+
+.image-desc {
+  position: relative;
+  top: 220px;
+  right: 200px;
+  height: 50px;
+  width: 200px;
+  height: 100px;
+  white-space: nowrap; 
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  color: black;
+}
+
+#nav-tab {
+  position: relative;
+  left: 16px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#dogs, #cats {
+  display: inline-flex;
+  
+}
+
+.tab_item {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.pets {
+    width: 150px;
+    height: 200px;
+    
+  }
+
+  #cats .tab_item {
+
+    position: relative;
+    bottom: 200px;
+  }
+  
+  .image-desc-cats {
+    position: relative;
+    bottom: -14px;
+    right: 200px;
+    height: 50px;
+    width: 200px;
+    height: 100px;
+    white-space: nowrap; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+  
+  }
+
+#choose_pet {
+
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  z-index: -1;
+  color: #f4a460;
+
+}
+
+hr {
+  position: relative;
+  bottom: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid grey;
+  z-index: -1;
+}
+
+
+#location{
+  position: relative;
+  top: 120px;
+  z-index: -1;
+  margin-left: 10px;
+}
+
+#location-text {
+
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  z-index: -1;
+  color: #f4a460;
+  position: relative;
+  left: 80px;
+
+}
+
+.form-control {
+  width: 250px;
+}
+
+#newsletter {
+  float: right;
+  position: relative;
+  right: 150px;
+}
+
+input {
+  margin-bottom: 20px;
+  border: 2px solid 
+}
+
+#news-header{
+  color: #f4a460;
+  font-size: 70px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+
+#news-content {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  z-index: -1;
+  color: black;
+  
+}
+
+iframe {
+  width: 800px;
+}
+
+.carousel-item img {
+  height: 500px;
+  z-index: -1;
+}
+/* Media Queries */
+
+@media (max-width: 480px) {
+	
+	.thumbnail .price {
+		font-size: 14px;
+	}
+	
+	.thumbnail .price sup {
+		font-size: 10px;
+	}
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+  #carouselExampleControls .carousel-item  { height: 310px; }
+  
+  
+  #First-slide {
+		background: top center no-repeat;
+	}
+	
+	#Second-slide {
+		background: top center no-repeat;
+	}
+	
+	#Third-slide {
+		background: top center no-repeat;
+	}
+  
+	
+	.carousel-caption {
+		font-size: 16px;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 22px;
+	}
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#carouselExampleControls .carousel-item { height: 500px; }
+	
+	#First-slide {
+		background: top center no-repeat;
+	}
+	
+	#Second-slide {
+		background: top center no-repeat;
+	}
+	
+	#Third-slide {
+		background: top center no-repeat;
+	}
+
+}
+
+
+
