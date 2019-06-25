@@ -1,0 +1,10 @@
+404.html
+*.txt
+*.xml
+js/
+doc/
+icon.png
+tile.png
+tile-wide.png
+favicon.ico
+site.webmanifest
