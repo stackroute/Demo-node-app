@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title>Code a Responsive Website with Twitter Bootstrap 3</title>
+	<meta name="description"
+		content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="includes/css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bree+Serif|Permanent+Marker&display=swap" rel="stylesheet">
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body>
+
+	<div class="container" id="main">
+
+		<div class="navbar navbar-fixed-top navbar-light" style="background-color: blue">
+			<div class="container">
+
+				<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse"
+					type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" href="/"><img src="images/dominos.png" alt="Your Logo"></a>
+
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav pull-left">
+						<li><a href="#">Home</a></li>
+						<li class="dropdown">
+
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Menu<strong
+									class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Non Veg Pizzas</a>
+								</li>
+
+								<li>
+									<a href="#">Veg Pizzas</a>
+								</li>
+
+								<li>
+									<a href="#">Side Orders</a>
+								</li>
+
+
+								<li>
+									<a href="#">Choice of Crusts</a>
+								</li>
+
+								<li>
+									<a href="#">Choice of Toppings</a>
+								</li>
+
+							</ul><!-- end dropdown-menu -->
+						</li>
+						<li><a href="#">Offers </a></li>
+						<li><a href="#">Store Finder </a></li>
+
+						<li><a href="#">Inside Dominos </a></li>
+						<li><a href="#">Gift Card</a></li>
+						<li> <a href="#">Contact </a></li>
+
+					</ul>
+
+					<div class="nav navbar-nav pull-right" id="download">
+						<button type="button" class="btn btn-danger">Download the App</button>
+					</div><!-- end nav pull-right -->
+				</div><!-- end nav-collapse -->
+
+			</div><!-- end container -->
+		</div><!-- end navbar -->
+
+
+		<div class="carousel slide" id="myCarousel">
+
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+					<img src="images/bg_1.png" class="img-fluid" alt="">
+					<div class="carousel-caption">
+						<h3>Healthy Foods</h3>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+					</div><!-- end carousel-caption-->
+				</div><!-- end item -->
+
+				<div class="item" id="slide2">
+					<img src="images/bg_2.png" class="img-fluid" alt="">
+					<div class="carousel-caption">
+						<h3>Fastest Delivery</h3>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic. </p>
+					</div><!-- end carousel-caption-->
+				</div><!-- end item -->
+
+				<div class="item" id="slide3">
+					<img src="images/bg_3.jpg" class="img-fluid" alt="">
+					<div class="carousel-caption">
+						<h3>Original Recepies</h3>
+						<p></p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+					</div><!-- end carousel-caption-->
+				</div><!-- end item -->
+			</div><!-- carousel-inner -->
+
+			<!-- Controls -->
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+		</div><!-- end myCarousel -->
+		<div class="jumbotron" id="backgroundJumbotron">
+			<h1>Welcome to Dominos</h1>
+			<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span
+					class="glyphicon glyphicon-hand-up"></span> Signin/Register</a>
+
+			<div class="modal fade" id="myModal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button class="close" data-dismiss="modal">&times;</button>
+
+							<h4 class="modal-title">Welcome to Domino's</h4>
+						</div><!-- end modal-header -->
+						<div class="modal-body">
+							<h4>Please Enter your Details to Login</h4>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<input type="text" name="mobile_number" placeholder="Enter Mobile Number*"
+										id="txtMobileNo" value="" maxlength="10" dval="7">
+								</div>
+
+								<div class="form-group">
+									<input type="password" name="password" placeholder="Password*" id="txtPassword">
+								</div>
+								<div class="form-group">
+									<input type="submit" value="login &amp; build your order" id="userlogin">
+								</div>
+
+
+							</form>
+						</div><!-- end modal-body -->
+
+						<div class="modal-footer">
+							<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button
+								class="btn btn-primary" type="button">Save changes</button>
+						</div><!-- end modal-footer -->
+					</div><!-- end modal-content -->
+				</div><!-- end modal-dialog -->
+			</div><!-- end myModal -->
+		</div>
+
+
+		
+
+		<div class="row" id="moreInfo">
+			<div class="col-sm-12">
+				<h3>DOMINO'S MENU</h3>
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab">Non Veg Pizzas</a></li>
+						<li><a href="#tab2" data-toggle="tab">Veg Pizzas</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<div class="col-sm-4">
+								<span class="icon-box"><img src="images/my-nonveg1.jpg" alt="double-cheese-margherita"
+										title="" class="img-responsive"></span>
+								<h3>Chicken Sausage</h3>
+								<p>Mmm! Barbeque chicken with a topping of golden corn loaded with extra cheese. Worth its weight in gold!</p>
+							</div>
+							<div class="col-sm-4">
+								<span class="icon-box"><img src="images/my-nonveg2.jpg" alt="double-cheese-margherita"
+										title="" class="img-responsive"></span>
+								<h3>Barbeque Chicken</h3>
+								<p>Bite into supreme delight of Black Olives, Onions, Grilled Mushrooms, Pepper BBQ Chicken, Peri-Peri Chicken, Grilled Chicken Rashers</p>
+							</div>
+							<div class="col-sm-4">
+								<span class="icon-box"><img src="images/my-nonveg3.jpg" alt="double-cheese-margherita"
+										title="" class="img-responsive"></span>
+								<h3>Chicken Dominator</h3>
+								<p>Treat your taste buds with Double Pepper Barbecue Chicken, Peri-Peri Chicken, Chicken Tikka & Grilled Chicken Rashers</p>
+							</div>
+						</div><!-- end tab-pane -->
+
+						<div class="tab-pane" id="tab2">
+							<div class="col-sm-4">
+								<span class="icon-box"><img src="images/my-vegpizza1.jpg" alt="double-cheese-margherita"
+										title="" class="img-responsive"></span>
+								<h3>Double Cheese Margherita</h3>
+								<p>For a vegetarian looking for a BIG treat that goes easy on the spices, this one's got it all.. The onions, the capsicum, those delectable mushrooms - with paneer and golden corn to top it all.</p>
+							</div>
+							<div class="col-sm-4">
+								<span class="icon-box"><img src="images/my-vegpizza2.jpg" alt="double-cheese-margherita"
+										title="" class="img-responsive"></span>
+								<h3>Veg Extravaganza</h3>
+								<p> pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes</p>
+							</div>
+							<div class="col-sm-4">
+								<span class="icon-box"><img src="images/my_vegpizza3.jpg" alt="double-cheese-margherita"
+										title="" class="img-responsive"></span>
+								<h3>Cheese n Corn</h3>
+								<p> pizza loaded with crunchy onions, crisp capsicum, juicy tomat</p>
+							</div>
+						</div><!-- end tab-pane -->
+
+					</div><!-- end tab-pane -->
+				</div><!-- end tab-content -->
+			</div><!-- end tabbable -->
+		</div><!-- end col-sm-6 -->
+
+
+
+
+
+		<div class="row" id="moreCourses">
+			<div class="col-12">
+
+				<div class="thumbnail">
+					<div class="tab-pane active" id="tab1"></div>
+					<h4><span class="glyphicon glyphicon-map-marker"></span> Domino's Nearby </h4>
+
+					<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15555.488957256726!2d77.61058226977538!3d12.915932000000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14f09fab6c89%3A0xacf21fdb409a463!2sDomino&#39;s+Pizza!5e0!3m2!1sen!2sin!4v1561402299128!5m2!1sen!2sin">
+					</iframe>
+
+
+				</div><!-- end tab-pane -->
+
+
+
+			</div><!-- end col-12 -->
+		</div><!-- end moreCourses -->
+	</div><!-- end container -->
+
+	<footer class="pg-footer col-xs-12 pd-LR" id="footer">
+		<div class="row">
+			<div class="col-md-5 col-sm-6 col-xs-12 footer-menu col-sm-6 hidden-xs">
+				<ul class="nav navbar-nav hidden-xs">
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Investors</a></li>
+					<li><a href="#">Feedback</a></li>
+					<li><a href="#">Ads</a></li>
+
+				</ul>
+			</div>
+			<div class="col-md-7 col-sm-6 col-xs-12">
+				<div class="col-xs-4 col-sm-6 pd-LR">
+					<div id="dominosImage">
+						<span class="call-us">
+							<img class="img-responsive"
+								src="https://www.dominos.co.in/theme2/front/images/home/hello.png"
+								alt="Domino's Customer Care Number - 1860-210-0000" title="">
+						</span>
+					</div>
+				</div>
+				<div class="col-xs-8 f-social-icon col-sm-6 pull-right">
+					<div class="col-xs-12 col-md-10 pd-LR text-right pull-right social-icon">
+						<div id="twitterImage">
+							<a class="col-xs-6" href="#"><img class="img-responsive"
+									src="https://www.dominos.co.in/theme2/front/images/home/twitter.png" title="Twitter"
+									alt="Twitter"></a>
+						</div>
+						<div id="facebookImage">
+							<a class="col-xs-6" href="#"><img class="img-responsive"
+									src="https://www.dominos.co.in/theme2/front/images/home/facebook.png"
+									title="Facebook" alt="facebook"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+</body>
+
+</html>
