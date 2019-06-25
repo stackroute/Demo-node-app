@@ -205,5 +205,20 @@ footer li:hover,li a:hover {
 .mapouter{
 	padding-top:20px;
 }
-
-
+#web_host{
+	align-self: center;
+}
+.card{
+	width: 380px;
+	float: left;
+	width: 40%;
+}
+#card-text{
+	float: right;
+	width: 60%;
+}
+#card-text p{
+	font-size: 22px;
+	text-align: left;
+	padding:40px 70px 0 0;
+}
