@@ -1,0 +1,257 @@
+body{
+    font-family:"Goudy Old Style";
+}
+
+
+nav{
+    opacity:0.7;
+    color:white;
+}
+.nav-division{
+    padding-right:100px;
+}
+.navbar-nav li:hover{
+    background-color:#292929;
+}
+.header-dropdown{
+    background-color:#272727;
+}
+#li{
+    color:white;
+}
+.nav-a{
+    color:white;
+}
+.h3-nav{
+    font-size:1.8em; 
+    margin-left:20px;
+}
+
+
+#carousel1 > ul > li{
+    opacity:0;
+}
+#carousel2 > ul > li{
+    opacity:0;
+}
+#carousel2{
+    margin-top:-400px; 
+    color:white;
+    padding-left:200px;
+}
+#h1-carousel2{
+    position:relative;
+    font-size: 6em;
+}
+#h3-carousel2{
+    font-size:3em;
+}
+#carousel2-btn{
+    width:150px;
+    height:50px;
+    border-radius:0px;
+}
+#carousel2-btn:hover{
+    background-color:#303030;
+    border-color:#303030;
+    color:white;
+}
+
+
+.first-container{
+    margin-top:200px;
+}
+.first-container-h1{
+    font-size:4em;
+}
+#first-container-btn{
+    width:150px;
+    height:50px;
+    border-radius:0px;
+}
+#first-container-btn:hover{
+    background-color:#303030;
+    border-color:#303030;
+    color:white;
+}
+.eiffel-tower{
+    height:90%;
+    width: 90%;
+    margin:-200px 0px 0px 150px;
+}
+.couple{
+    height: 60%;
+    width: 60%;
+    margin-top:-400px;
+}
+
+
+.hot-deals-row{
+    text-align:center; 
+    margin-top:80px;
+}
+.hot-deals-para{
+    padding:50px 200px 50px 200px;
+}
+
+.three-column-container-column:hover{
+    background-color:#F36875;
+}
+.three-column-container-h1{
+    text-align:right;
+}
+.three-column-container-h2{
+    padding:30px 0px 60px 0px;
+}
+#three-column-container-btn1,#three-column-container-toolbar-btn{
+    width:150px;
+    height:50px;
+    border-radius:0px;
+    margin:50px 0px 50px 0px;
+}
+#three-column-container-btn3{
+    width:150px;
+    height:50px;
+    border-radius:0px; 
+    margin:70px 0px 50px 0px;
+}
+#three-column-container-btn1:hover{
+    background-color:#303030;
+    border-color:#303030;
+    color:white;
+}
+#three-column-container-toolbar-btn:hover{
+    background-color:#303030;
+    border-color:#303030;
+    color:white;
+}
+#three-column-container-btn3:hover{
+    background-color:#303030;
+    border-color:#303030;
+    color:white;
+}
+
+
+.destination-row{
+    text-align:center; 
+    margin-top:80px;
+    
+}
+.destination-para{
+    padding:50px 200px 50px 200px;
+}
+.btn-toolbar{
+    padding-left: 580px;
+}
+#toolbar-btn{
+    border-radius:0px;
+}
+#toolbar-btn:hover{
+    background-color:#242424;
+    color:white;
+}
+
+
+.gallery-row1{
+    margin-top:100px; 
+    text-align:center;
+}
+.gallery-row2{
+    text-align:center;
+}
+#gallery-btn{
+    border-radius: 0px; 
+    position: relative; 
+    margin-bottom: 90px;
+}
+#gallery-btn:hover{
+    background-color:#303030;
+    border-color:#303030;
+    color:white;
+}
+#gallery-column-h2{
+    margin-top: -200px; 
+    position: relative;
+}
+#gallery-column-para{
+    position: relative;
+}
+#gallery-column-h2,#gallery-column-para,#gallery-column-btn{
+    position:static; 
+    top:50px;
+    color:white;
+}
+
+
+.services-row{
+    background-color:#D9534F;
+}
+.services-h1{
+    font-size:4em;
+}
+#services-column1{
+    padding-left: 50px;
+}
+
+
+#three-image-row-column{
+    text-align:center; 
+    padding:50px 50px 50px 50px;
+}
+#three-image-row-image{
+    height:250px;
+    width:250px;
+    border-radius:200px; 
+    margin:30px 0px 50px 0px; 
+    border:thick #E7636F solid;
+}
+#three-image-row-btn:hover{
+    background-color:#303030;
+    border-color:#303030;
+    color:white;
+}
+#three-image-row-btn{
+    width:150px;
+    height:50px;
+    border-radius:0px;
+    margin:50px 0px 50px 0px;
+}
+
+
+.footer-row1{
+    background-color:#1C1D21; 
+    color:white; 
+    padding:50px 0px 100px 0px;
+}
+.footer-row2{
+    text-align:center; 
+    background-color:#343F43; 
+    color:white;
+}
+.footer-row2-icons{
+    padding:50px 0px 20px 30px;
+}
+.fab{
+    padding:20px;
+    font-size:40px;
+    margin-top:30px;
+    margin-left:-20px;
+    color:white;
+}
+.fab:hover{
+        color:black;
+        text-decoration:none;
+}
+.tabbed_panel2-img{
+    width: 100%;
+}
+
+
+
+
+@media (min-width : 300px){
+    .gallery-column{
+     min-height:100px;
+     padding:0px;
+    }
+}
