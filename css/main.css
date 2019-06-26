@@ -1,0 +1,92 @@
+/* Header Parallax Element Style*/ 
+.paral {
+min-height: 805px;
+background-attachment: fixed;
+background-size: cover;
+background-position: 50% 50%;
+}
+
+/* Paragrapgh for Parallax Section */ 
+.paral p {
+font-size: 24px;
+color:#f5f5f5;
+text-align: center;
+line-height: 60px;
+}
+
+/* Heading for Parallax Section */ 
+.paral h1 {
+color: rgba(255, 255, 255, 0.8);
+font-size: 60px;
+text-align: center;
+padding-top: 60px;
+line-height: 100px;
+}
+
+/* Image for Parallax Section */ 
+.paralsec {
+background-image: url("../img/bg3.jpg");
+}
+
+.paralsec1 {
+background-image: url("../img/par3.jpg");
+}
+
+.paralsec2 {
+background-image: url("../img/bg1.jpg");
+}
+
+/* Add more images for more sections */
+
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron{margin-bottom: 0;}
+
+/* Footer */
+.wn-footer {
+padding: 2.5rem 0;
+text-align: center;
+color: white;
+background-color: #607D8B;
+border-top: .05rem solid #e5e5e5;
+}
+ 
+.wn-footer a {
+color: yellow;
+}
+.map-container-6{
+overflow:hidden;
+height: 550px;
+position:relative;
+}
+
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.slide{
+margin-top: 140px;  
+}
+
+.card {
+height: 550px;
+}
+
+.card-body h4{
+font-size: 40px;
+text-decoration: underline;
+}
+
+.card-body p{
+font-size: 15px;
+color: black;
+line-height: 15px;
+}
+
+.md-form{
+margin-top: 5px;
+margin-bottom: 15px;
+}
