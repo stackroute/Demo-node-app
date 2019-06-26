@@ -1,0 +1,178 @@
+
+.panel-heading h3{
+    font-family: 'Anton', sans-serif;
+}
+.thumbnail
+{
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+}
+body
+{
+    background: url('../../images/background.jpeg')
+}
+.alert{
+    margin-top: 20px;
+    display: none;
+}
+.Notice small{
+    color: rgb(121, 16, 16);
+}
+
+.tabbable img.thumbnail{
+    margin: 0 20px 10px 0; 
+} 
+.page-header h1{
+    font-family: 'Coda Caption', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.664);
+    
+}
+footer{
+    background: #333;
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
+}
+.lead{
+    font-family: 'Merienda', cursive;
+}
+ul.unstyled{
+    display:inline;
+    list-style: none;
+    padding: 0;
+}
+li{
+    display:inline;
+}
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features{
+    text-align: center;
+}
+#features img{
+    margin: 0 0 20px;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   #searchInput{
+       width: 200px;
+   }
+   .navbar-brand{
+    padding: 13px 15px;/*top down 13 and left right 15*/
+    font-size: 10px;
+   }
+   
+
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   #myCarousel{
+       margin-top: 60px;
+   }
+    .carousel-caption p{
+        background-color: rgba(219, 190, 190, 0.61);
+        font-family: 'Architects Daughter', cursive;
+
+    }
+   .carousel-caption h4{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    color: white;
+    background-color: rgba(224, 112, 47, 0.61);
+}
+   .carousel-caption{
+       font-size: 28px;
+       color: rgb(0, 0, 0);
+   }
+#myCarousel .item{ height: 400px;}
+#slide1{
+    background: url('../../images/hero.jpg') top center no-repeat;
+
+
+}
+#slide2{
+    background: url('../../images/hero2.jpg') top center no-repeat;
+
+}
+#slide3{
+    background: url('../../images/hero3.jpg') top center no-repeat;
+
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    #myCarousel .item{ height: 310px;}
+#slide1{
+    background: url('../../images/hero.jpg') top center no-repeat;
+
+
+}
+#slide2{
+    background: url('../../images/hero2.jpg') top center no-repeat;
+
+}
+#slide3{
+    background: url('../../images/hero3.jpg') top center no-repeat;
+
+}
+	.carousel-caption{
+        font-size: 16px;
+    }
+    .carousel-caption h4{
+        font-size: 22px;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    #myCarousel .item{ height: 500px;}
+#slide1{
+    background: url('../../images/hero.jpg') top center no-repeat;
+
+
+}
+#slide2{
+    background: url('../../images/hero2.jpg') top center no-repeat;
+
+}
+#slide3{
+    background: url('../../images/hero3.jpg') top center no-repeat;
+
+}
+	
+}
+.list-group-item p{
+    color: rgb(121, 16, 16);
+    font-size: 18px;
+}
