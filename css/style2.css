@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.main_logo{
+    height: 80px;
+    width: 90px;
+    display: flex;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: beige;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
+
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+    padding-bottom: 20px;
+}
+
+.logo{
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+a{
+    margin: 15px;
+    color: rgb(19,109,150);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: rgb(6, 66, 23);
+    text-decoration:darkkhaki;
+
+}
+
+h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-area{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background-image: url(../img/hero2.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover; 
+    padding-top: 150px; 
+    
+}
+
+.grid_4 p{
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.container_12{
+    padding: 20px;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.grid_4{
+    padding-right: 50px;
+}
+
+ .grid_6 #image{
+    width: 1000px;
+    height: 100vh;
+    padding: 100px;
+}
+
+.grid_6 {
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+
+
+}
+
+.footer{
+    background-color:rgb(131, 125, 112);
+    bottom: 0;
+    text-align:right;
+    height: 180px;
+}
+
+.maindiv li{
+text-decoration: none;
+display: inline;
+padding-right: 5px;
+padding-top:10px; 
+padding-bottom: 0;
+
+}
+.wa{
+    height: 50px;
+    padding-right: 5px;
+    
+}
+
+#image{
+    padding: 50px;
+    height: 70vh;
+    width: 100%;
+}
