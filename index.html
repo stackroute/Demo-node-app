@@ -1,7 +1,448 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Responsive Website</title>
+		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<!-- <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+		<link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="./includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="./includes/css/styles.css">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="./includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
 	<body>
-			<img border="0" src="https://jenkins-x.io/images/logo.png" width="300" height="300" />
-			<h2>Hello Node from Jenkins X</h2>
+		<img border="0" src="https://jenkins-x.io/images/logo.png" width="300" height="300" />
+		<h2>Hello Node from Jenkins X</h2>
+
+		<div class="container" id="main">
+		
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+					
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="/"><img src="images/logo.png" alt="Your Logo"></a>
+					
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li >
+								<a href="#"><span class="glyphicon glyphicon-home"> Home</span></a>
+							</li>
+							<li >
+								<a href="#"><img id="homelogo" src="images/menu-sprite.jpg"/> Befor/after</a>
+							</li>
+							
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Health</a>
+									</li>
+									
+									<li>
+										<a href="#">Diet</a>
+									</li>
+									
+									<li>
+										<a href="#">Hydiene</a>
+									</li>
+									
+									<li class="divider"></li>
+									
+									<li class="dropdown-header">More Services</li>
+									
+									<li>
+										<a href="#">Content</a>
+									</li>
+									
+									<li>
+										<a href="#">Social Media </a>
+									</li>
+								</ul><!-- end dropdown-menu -->
+							</li>
+						</ul>
+						
+						<form class="navbar-form pull-left">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form><!-- end navbar-form -->
+						
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a>
+									</li>
+									
+									<li class="divider"></li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+									</li>
+								</ul>
+							</li>
+						</ul><!-- end nav pull-right -->
+					</div><!-- end nav-collapse -->
+				
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+			
+			
+			<div class="carousel slide" id="myCarousel">
+			
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+			
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>Fruits</h4>
+							<p>
+									Fruits are the edible fleshy part of a tree or a plant that contains seeds. Fruits come in a variety of flavors, including sweet, sour, bittersweet, and many more. They are great sources of many nutrients required by our body.
+							</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2">
+						<div id="subheader" class="carousel-caption">
+							<h4>Veggies</h4>
+							<p>If you regularly load up your grocery cart with a variety of veggies, you could be well on your way to a healthier and longer life.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>Meal Plan</h4>
+							<p>Make good use of crunchy and colorful seasonal produce in these meal-prep-friendly vegetable bowls.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+				
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+			
+			</div><!-- end myCarousel -->
+			<div  id="sec" class="jumbotron">
+				<h1><marquee behavior="alternate" scrollamount="5">Welcome to Nutrition</marquee></h1>
+			</div>
+			
+			<div class="row" id="bigCallout">
+				<div class="col-12">
+					
+					
+					<!-- Visible only on small devices -->
+					<div class="well well-small visible-sm">
+						<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
+					</div><!-- end well-small -->
+					
+					<div class="well">
+						<div class="page-header">
+							<h1>Health is Wealth <small>Be Healthy Be Happy</small></h1>
+						</div><!-- end page-header -->
+						
+						<p class="lead">Calm mind brings inner strength and self-confidence, so that's very important for good health.</p>
+						<a href="" class="btn btn-large btn-default" id="alertMe">Click for more</a>
+						
+						
+					</div><!-- end well -->
+					
+				</div><!-- end col-12 -->
+			</div><!-- end bigCallout -->
+			
+			
+			<div class="row" id="featuresHeading">
+				<div class="col-12">
+					<h2>Our Facilities</h2>
+					<p class="lead">Maintaining a healthy weight for life is a great goal to set. Keep these simple tips in mind to help you and your family meet this goal.</p>
+				</div><!-- end col-12 -->
+			</div><!-- end featuresHeading -->
+			
+			
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Cleanliness At Home</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/image1.jpg" alt="HTML5" class="img-circle">
+						
+						<p>A clean and tidy home not only contributes immensely to our wellbeing, it also promotes the flow of positive energy.</p>
+						
+						<a href="https://completewellbeing.com/article/spick-and-span/" target="_blank" class="btn btn-info btn-block">Learn More</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Rinse and Shine</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/image2.jpg" alt="CSS3" class="img-circle">
+						
+						<p>Daily oral hygiene is easy—brush, floss, rinse—and you’re done. Here’s the correct way to go about it.feel good.</p>
+						
+						<a href="https://completewellbeing.com/article/the-daily-drill/" target="_blank" class="btn btn-info btn-block">Learn More</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Monsoon Hygiene</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/image3.jpg" alt="Bootstrap 3" class="img-circle">
+						
+						<p>Monsoon is an ideal time for infections to catch you. A high degree of personal hygiene will help you run away from them and enjoy the rain</p>
+						
+						<a href="https://completewellbeing.com/article/precautions-to-take-this-monsoon/" target="_blank" class="btn btn-info btn-block">More Hygeine</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+			</div><!-- end features -->
+			
+			
+			<div class="row" id="moreInfo">
+				<div class="col-sm-6">
+					<h3>Table Content</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Location</a></li>
+							<li><a href="#tab2" data-toggle="tab">Nutritionist</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location <small>We are available everytime</small></h4>
+								
+								
+								<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31108.54582785449!2d77.614597!3d12.9354492!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14465d180201%3A0x30aee1d17ab8b452!2sHerbalife+Distributor+-+Nu+Life+Nutrition+Studio!5e0!3m2!1sen!2sin!4v1561436686010!5m2!1sen!2sin"></iframe>
+								
+								<p>
+										We are a global nutrition company that has helped people pursue a healthy, active life since 1980. Our nutrition, weight-management products are available exclusively through our more than 2.3 million independent Associates in more than 90 countries.
+
+										We support the Herbalife Nutrition Foundation (HNF) and its Casa Herbalife program to help bring good nutrition to children in need.
+								</p>
+								<h2>Our Value</h2>
+								<h3>	We Always Do What’s Right</h3>
+
+										<p>When we look in the mirror, we see integrity, honesty, humility and trust. We reflect the belief that ethical is never optional.
+
+								</p>
+							</div><!-- end tab-pane -->
+							
+							<div class="tab-pane" id="tab2">
+								<h4>Nutritionist</h4>
+								
+								<img src="images/image6.jpg" class="thumbnail pull-left" alt="Placeholder image">
+								
+								<p>
+										Dr. Nafeesa is an Ex. HOD of Fortis Hospital (Dept of Nutrition & Dietetics) and she has also served with a ministry of health license (Gov of UAE) in Dubai. She has managed dietetic needs of ill, critically ill and healthy persons successfully. She is an Editorial Board member of International Journal Of Nutritional Science & Food Technology, USA. She is a member of American Society Of Nutrition (ASN), Indian Dietetic Association And Nutrition Society Of India.
+										Dr. Nafeesa having 21 yrs of pure Clinical dietetics & nutrition experience is a health & wellness counselor, food consultant, speaker & recipe developer. Her expert food & nutrition advice has helped thousands of individuals with or without medical conditions to improve overall health as well as medical conditions. She specializes in medical /therapeutic nutrition for conditions like Diabetes, Hypercholesterolemia, Hypertension, Hypo /Hyperthyroidism, PCOS, Infertility, Renal problems, Cardio Vascular Problems, Eating Disorders & Weight loss /Gain issues.
+								</p>
+								<hr>
+								
+								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Contact Us</a>
+								
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" data-dismiss="modal">&times;</button>
+												
+												<h4 class="modal-title">Consult Us</h4>
+											</div><!-- end modal-header -->
+											<div class="modal-body">
+												
+												<hr>
+											
+												<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputName" placeholder="Name" type="text">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+														<div class="col-lg-10">
+															<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+															<button class="btn btn-success pull-right" type="submit">Send!</button>
+														</div>
+													</div>
+												</form>
+											</div><!-- end modal-body -->
+											
+											<div class="modal-footer">
+												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+											</div><!-- end modal-footer -->
+										</div><!-- end modal-content -->
+									</div><!-- end modal-dialog -->
+								</div><!-- end myModal -->
+								
+							</div><!-- end tab-pane -->
+						</div><!-- end tab-content -->
+					</div><!-- end tabbable -->
+				</div><!-- end col-sm-6 -->
+				
+				<div class="col-sm-6">
+					<h3>Herbs and Spices</h3>
+					<div class="col-md-3">
+						<div class="list-group">
+							<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">Cardamom</h4>
+								<p class="list-group-item-text">Kale or borecole is a vegetable with green or purple leaves, in which the central leaves do not form a head.</p>
+							</a>
+							<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">Black Pepper</h4>
+								<p class="list-group-item-text">The carrot is a root vegetable, usually orange in colour, though purple, red, white, and yellow varieties exist. It has a crisp texture when fresh.</p>
+							</a>
+							<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">Steel-cut oats</h4>
+								<p class="list-group-item-text">Steel-cut oats are whole grain groats which have been cut into pieces. They are commonly used in Scotland and Ireland to make porridge.</p>
+							</a>
+						</div><!-- list-group -->
+					</div>
+					<div class="col-md-3" id="images">
+						<img src="images/image7.jpg" alt="cardamom"/>
+						<img src="images/image8.jpg" alt="pepper"/>
+					</div>
+				</div>
+			</div><!-- end moreInfo -->
+			
+			<hr>
+			
+			<div class="row" id="moreCourses">
+				<div class="col-12">
+					<h3>Healthy Weight Tools</h3>
+					<div class="thumbnails row">
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/image4.jpg" alt="BMI">
+								
+								<div class="label label-info price"><span class="glyphicon glyphicon-tag"></span> Free</div>
+								
+								<div class="caption">
+									<h3>BMI</h3>
+									
+									
+									<p><a href="https://www.smartbmicalculator.com/" class="btn btn-primary btn-small" target="_blank">Check</a> <a href="https://www.smartbmicalculator.com/" target="_blank" class="btn btn-small btn-link">Learn more</a></p>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-6 -->
+						
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/image5.jpg" alt="healthy diet">
+								
+								<div class="label label-info price"><span class="glyphicon glyphicon-tag"></span> Free</div>
+								
+								<div class="caption">
+									<h3>Healthy Diet Plan</h3>
+									
+									
+									<p><a href="https://www.nhlbi.nih.gov/health/educational/lose_wt/eat/calories.htm" class="btn btn-primary btn-small" target="_blank">Check</a> <a href="https://www.nhlbi.nih.gov/health/educational/lose_wt/eat/calories.htm" target="_blank" class="btn btn-small btn-link">Learn more</a></p>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-6 -->
+					</div><!-- end row -->
+				</div><!-- end col-12 -->
+			</div><!-- end moreCourses -->
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+					<h6>Copyright &copy; 2013 {name}</h6>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-4">
+						<h6>About Us</h6>
+						<p>The most recent National Health and Nutrition Examination Surveys (2007-2008) indicate that about 17 percent of children ages 2-19 years are obese.  An additional 15 percent are considered overweight.  Childhood obesity can increase risk for a wide array of health problems; for more information on obesity in general and the risks of childhood overweight, visit the Obesity and Health Problems page.   
+
+							</p>
+					</div><!-- end col-sm-4 -->
+					
+					<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Links</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Google Plus</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-2">
+						<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Brad</h6>
+					</div><!-- end col-sm-2 -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</footer>
+	
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
 	</body>
 </html>
+
