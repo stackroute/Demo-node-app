@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Holidfy</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka the Great" rel="stylesheet">
+    <link rel="manifest" href="site.webmanifest">
+     <link rel="apple-touch-icon" href="icon.png">
+  </head>
+  <body>
+       <nav class="navbar navbar-expand-sm bg-light navbar-fixed-top navbar-full" id="nav-main"> <!--start of navigation bar-->
+                <a class="navbar-brand" href="#"><img src="img/mainlogo.png" alt="Logo"></a>
+                <button class="navbar-toggler hidden-md-up pull-xs-right" data-target="#collapsenav" data-toggle="collapse" type="button">
+                    ☰
+                </button> <!--for mobile view-->
+                <div class="navbar-toggleable-sm collapse pull-md-right text-xs-center" id="collapsenav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                      Packages
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Holiday Packages</a>
+                      <a class="dropdown-item" href="#">Yearly Packages</a>
+                      <a class="dropdown-item" href="#">Group Tour</a>
+                      <a class="dropdown-item" href="#">Find a TouristGuide</a>
+                      <a class="dropdown-item" href="#">How to Reach</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Places to visit</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="#">Resturants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                </ul>
+                </div>
+        </nav> <!--end of navigation bar-->
+        <section id="cover"> <!--start of cover image-->
+                <div id="cover-caption">
+                    <div class="container">
+                        <div class="col-sm-10 col-sm-offset-1">
+                            <h3 class="display-3" id="cover-head">Welcome to Coorg..</h3>       
+                            <form action="" class="form-inline" id="#submitform">
+                                <div class="form-group" id="namediv">
+                                    <label class="sr-only">Name</label>
+                                    <input type="text" class="form-control form-control-lg" placeholder="Search for a Place">
+                                </div>
+                                <div class="form-group" id="maildiv">
+                                    <label class="sr-only">Email</label>
+                                    <input type="text" class="form-control form-control-lg" placeholder="Enter your mail">
+                                </div>
+                                <button type="submit" class="btn btn-success btn-lg">let's, go!</button>
+                            </form>        
+                            <br>
+                     <a href="#colsection" class="btn btn-success btn-sm" role="button">&darr;</a> 
+                        </div>
+                    </div>
+                </div>
+            </section> <!--end of cover image-->
+            <section id="colsection"> <!--start of three column section-->
+                    <div class="section-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card-group">
+                                        <div class="card">
+                                            <div class="card-block">
+                                                <h1 class="card-title">About Coorg..</h1>
+                                            </div>
+                                            <img src="img/1.jpg" alt="About">
+                                            <div class="card-block">
+                                                <p class="card-text">Located amidst imposing mountains in Karnataka with a perpetually misty landscape, Coorg is the place to be for all nature lovers. This popular coffee producing hill station is not only popular for its beautiful green hills and the streams cutting right through them.</p>
+                                                <button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">Know more</button>
+                                            </div>
+                                        </div>
+           
+                                        <div class="card">
+                                            <div class="card-block">
+                                                <h1 class="card-title">Places to visit</h1>
+                                            </div>
+                                            <img src="img/2.jpg" alt="places">
+                                            <div class="card-block">
+                                                <p class="card-text">It is well known for its breathtakingly exotic scenery and lush greenery. Forest covered hills, spice and coffee plantations only add to the landscape. On a visit to Coorg, cover the beautiful towns like Virajpet, Kushalnagar, Gonikoppal, Pollibetta, and Somwarpet and many more places to explore.</p>
+                                                <button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">Explore more</button>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-block">
+                                                <h1 class="card-title">Resturants</h1>
+                                            </div>
+                                            <img src="img/3.jpg" alt="food">
+                                            <div class="card-block">
+                                                <p class="card-text">Coorg has quite a few restaurant and eateries that offer a varied range of cuisines. For a quick bite, head out to the Point Café located on the Mall Road is where you can grab a hot espresso with some baked treats.There are many restaurants, which provide good meals.</p>
+                                                <button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">Know more</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid" id="jumbo-container">
+                        <div class="container">
+                          <h1 id="jumbohead-lg">At a height of 3,500 ft &amp; with the company of clouds,the loudest sound you'll hear is your heartbeat</h1>      
+                          <h1 id="jumbohead-sm">Head now to Coorg to get the green therapy,sip the freshly brewed coffee &amp;live like kodavas.</h1>
+                        </div>
+                      </div>
+               </section> <!--end of threecolumn section-->
+               <section id="carousel"> <!--start of carousel-->
+                <div id="carousel-home" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-home" data-slide-to="1"></li>
+                        <li data-target="#carousel-home" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="img/coorgmain2.jpg" alt="bridge">
+                            
+                            <div class="carousel-caption">
+                                <h2>Enjoy the Rope Bridge</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/main3.jpg" alt="greenary">
+                            
+                            <div class="carousel-caption">
+                                <h2>Feel the Greenary around you..</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/main4.jpg" alt="waterfall">
+                            
+                            <div class="carousel-caption">
+                                <h2>Beautiful Waterfalls</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#carousel-home" role="button" data-slide="prev">
+                        <span class="icon-prev" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-home" role="button" data-slide="next">
+                        <span class="icon-next" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section> <!--end of carousel-->
+            			
+			<div class="row" id="moreInfo">
+				<div class="col-sm-6">
+					<h1 id="rowheader">How to Reach Coorg</h1>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab" id="firsttab">Route Map: Mangalore-Coorg</a></li>
+							<li><a href="#tab2" data-toggle="tab" id="secondtab">Find out more Interesting</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+                                <img src="img/map3.png" alt="roadmap">			
+							</div><!-- end tab-pane -->
+							<div class="tab-pane" id="tab2">
+                                <img src="img/treck.jpg" alt="trecking">
+                                <hr>
+								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click here to Register</a>
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+                                                <h3>Register for Trecking Here!</h1>
+												<button class="close" data-dismiss="modal">&times;</button>
+											</div><!-- end modal-header -->
+											<div class="modal-body">
+                                                    <h4 id="modalhead">Enter Your Details for Registration</h4>
+                                                <hr>	
+                                                <p><small class="text-muted">Please enter your tour details in the box over there,so that we can book your trecking .</small></p>
+												<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputName" placeholder="Name" type="text">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputMessage">Details</label>
+														<div class="col-lg-10">
+															<textarea class="form-control" id="inputMessage" placeholder="Book your Trecking" rows="3"></textarea>
+														</div>
+													</div>
+												</form>
+											</div><!-- end modal-body -->
+											
+											<div class="modal-footer">
+												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Submit</button>
+											</div><!-- end modal-footer -->
+										</div><!-- end modal-content -->
+									</div><!-- end modal-dialog -->
+								</div><!-- end myModal -->
+								
+							</div><!-- end tab-pane -->
+						</div><!-- end tab-content -->
+					</div><!-- end tabbable -->
+				</div><!-- end col-sm-6 -->
+				
+				<div class="col-sm-6" id="secondrow">
+					<h2 id="rowheader">Some more interesting facts about Coorg...</h2>
+					    <div class="list-group" id="col-3">
+						<a href="#" class="list-group-item">
+							<p class="list-group-item-text" id="rowcontent">"Coorg, officially called Kodagu, is the most sought after and popular hill station of Karnataka."</p>
+						</a>
+						<a href="#" class="list-group-item" id="rowcontent">
+							<p class="list-group-item-text">"The best time to visit Kodagu is between October to May and the peak season for this hill station is within February to May."</p>
+						</a>
+						<a href="#" class="list-group-item" id="rowcontent">
+							<p class="list-group-item-text">"Kodagu is the largest producer of Coffee in India. Also, it is one of the places with highest rainfall across the nation."</p>
+						</a>
+					</div><!-- list-group -->
+				</div><!-- end col-sm-6 -->
+			</div><!-- end moreInfo -->  
+            <!--Google map-->
+<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+    <iframe src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=coorg%2Ckarnataka+(coorg)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed" frameborder="0"
+      style="border:0" allowfullscreen></iframe>
+  </div>
+  
+  <!--Google Maps-->
+            
+    <footer id="footer-main"> <!--Start of footer-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p>&copy All Rights Reserved</p>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                    </ul>
+                    <p class="pull-xs-right">
+                        <a href="#">Back to top</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer> <!--end of footer-->
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
+    
