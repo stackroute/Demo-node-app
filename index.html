@@ -1,0 +1,439 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>My Books</title>
+		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/main.css">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+	
+		<div class="container" id="main">
+		
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+					
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="/"><img src="img/logo.jpg" alt="my books"></a>
+					
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#">Home</a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">gernes <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">education</a>
+									</li>
+									
+									<li>
+										<a href="#">history</a>
+									</li>
+									
+									<li>
+										<a href="#">philosophy</a>
+									</li>
+									
+									<li class="divider"></li>
+									
+									<li class="dropdown-header">More gernes</li>
+									
+									<li>
+										<a href="#">philosophy</a>
+									</li>
+									
+									<li>
+										<a href="#">biography</a>
+									</li>
+								</ul><!-- end dropdown-menu -->
+							</li>
+							<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">authors <strong class="caret"></strong></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">chetan bhagat</a>
+									</li>
+									<li>
+											<a href="#">amritha pritham</a>
+									</li>
+									<li>
+											<a href="#">jumpa lahir</a>
+									</li>
+								</ul>
+
+							</li>
+						</ul>
+						
+						<form class="navbar-form pull-left">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form><!-- end navbar-form -->
+						
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-book"></span>my library</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+									</li>
+									
+									<li class="divider"></li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+									</li>
+								</ul>
+							</li>
+						</ul><!-- end nav pull-right -->
+					</div><!-- end nav-collapse -->
+				
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+			
+			
+			<div class="carousel slide" id="myCarousel">
+			
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+			
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>search</h4>
+							<p>search any books you want.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>library</h4>
+							<p>add books to your library to read any time.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>payment</h4>
+							<p>pay money for the books however the way you want.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+				
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+			
+			</div><!-- end myCarousel -->
+			
+			
+			<div class="row" id="bigCallout">
+				<div class="col-12">
+					
+					<div class="alert alert-success alert-block fade in" id="successAlert">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+						
+						<h4>Success!</h4>
+						<p>You have sucessfully added the book to library.</p>
+					</div><!-- end alert -->
+					
+					<!-- Visible only on small devices -->
+					<div class="well well-small visible-sm">
+						<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
+					</div><!-- end well-small -->
+					
+					<div class="well">
+						<div class="page-header">
+							<h1>Add book <small>to your library to read whenever you want.</small></h1>
+						</div><!-- end page-header -->
+						
+						<p class="lead"><form>
+              			<label >title:</label>
+              			<input type="text" name="title">
+              			<label>author:</label>
+              			<input type="text" name="author">
+            			</form></p>
+						
+						<a href="" class="btn btn-large btn-primary" id="alertMe">Add to library.</a>
+					</div><!-- end well -->
+					
+				</div><!-- end col-12 -->
+			</div><!-- end bigCallout -->
+			
+			
+			<div class="row" id="featuresHeading">
+				<div class="col-12">
+					<h2>Popular Books</h2>
+				</div><!-- end col-12 -->
+			</div><!-- end featuresHeading -->
+			
+			
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Education</h3>
+						</div><!-- end panel-heading -->
+						<img src="img/education.jpg" alt="HTML5" class="img-circle">
+						<a href="#" target="_blank" class="btn btn-warning btn-block">Buy now!</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Philosophy</h3>
+						</div><!-- end panel-heading -->
+						<img src="img/history.jpg" alt="CSS3" class="img-circle">
+						<a href="#" target="_blank" class="btn btn-danger btn-block">Buy now!</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">History</h3>
+						</div><!-- end panel-heading -->
+						<img src="img/philosophy.jpg" alt="Bootstrap 3" class="img-circle">
+						<a href="#" target="_blank" class="btn btn-info btn-block">Buy now!</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+			</div><!-- end features -->
+			
+			
+			<div class="row" id="moreInfo">
+				<div class="col-sm-6">
+					<h3>Send e-books to your mail.</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Search</a></li>
+							<li><a href="#tab2" data-toggle="tab">e-book</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4>ebooks</h4>
+								<forms>
+									<label>book name</label>
+									<input type="text" name="name"><br>
+									<label>author name</label>
+									<input	type="text" name="author"><br>
+									<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+
+								</forms>
+							</div><!-- end tab-pane -->
+							<hr>
+							<div class="tab-pane" id="tab2">
+								<h4>Book description</h4>
+								
+								<img src="img/section2.jpg" class="thumbnail pull-left" alt="Placeholder image">
+								<p>What type of leadership do you practice? Many of us rely on transformational and instructional leadership. But there are advantages in applying a holistic angle including all stakeholders--an approach known as collaborative leadership. Peter DeWitt unpacks six factors framed through John Hattie's research while painting a powerful scheme: meet stakeholders where they are, motivate stakeholders to strive for improvement, model how to do it. The blueprint will inspire you to:
+
+
+									Transform your leadership practice Identify where you can make changes Build and empower your team Incorporate all stakeholders into the conversatio</p>
+								<hr>
+								
+								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> e-book!</a>
+								
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" data-dismiss="modal">&times;</button>
+												
+												<h4 class="modal-title">e-book will be sent to e-mail.</h4>
+											</div><!-- end modal-header -->
+											<div class="modal-body">
+												<h4>enter your details</h4>
+												<p><small class="text-muted"></small></p>
+												<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputName" placeholder="Name" type="text">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+														<div class="col-lg-10">
+															<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+															<button class="btn btn-success pull-right" type="submit">Send!</button>
+														</div>
+													</div>
+												</form>
+											</div><!-- end modal-body -->
+											
+											<div class="modal-footer">
+												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+											</div><!-- end modal-footer -->
+										</div><!-- end modal-content -->
+									</div><!-- end modal-dialog -->
+								</div><!-- end myModal -->
+								
+							</div><!-- end tab-pane -->
+						</div><!-- end tab-content -->
+					</div><!-- end tabbable -->
+				</div><!-- end col-sm-6 -->
+
+				<div class="col-sm-6">
+					<h4>Contact Informaton</h4>
+					
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Name</h4>
+							<p class="list-group-item-text">Ravi Asmitha</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">phone number</h4>
+							<p class="list-group-item-text">988765432221,8765432211</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">email</h4>
+							<p class="list-group-item-text">sdfbvghhhjaghjfthtdtyj@gmail.com.</p>
+						</a>
+					</div><!-- list-group -->
+				</div><!-- end col-sm-6 -->
+			</div><!-- end moreInfo -->
+		</div><!-- end container -->
+	<hr>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+					<h6>Copyright &copy; 2013 {name}</h6>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-4">
+						<h6>About Us</h6>
+						<p>we are the best e-book provider.you can find any book you need in this website.</p>
+					</div><!-- end col-sm-4 -->
+					
+					<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">gernes</a></li>
+							<li><a href="#">Links</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Google Plus</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-2">
+						<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by asmitha.</h6>
+					</div><!-- end col-sm-2 -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</footer>
+	
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="js/script.js"></script>
+	
+	</body>
+</html>
+
